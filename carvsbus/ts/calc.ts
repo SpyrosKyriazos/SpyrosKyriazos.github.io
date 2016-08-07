@@ -50,7 +50,7 @@ function carRequestListener() {
 function carDataToArray() {
     var request = new XMLHttpRequest();
     request.onload = carRequestListener;
-    request.open("get", "../data/all_car_fuel.json", true);
+    request.open("get", "data/all_car_fuel.json", true);
     request.send();
 }
 
@@ -63,7 +63,7 @@ function pricesRequestListener() {
 function pricesDataToArray() {
     var request = new XMLHttpRequest();
     request.onload = pricesRequestListener;
-    request.open("get", "../data/prices.json", true);
+    request.open("get", "data/prices.json", true);
     request.send();
 }
 
