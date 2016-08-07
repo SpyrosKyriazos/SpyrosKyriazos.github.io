@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="images/favicon.ico">
+
+  <title>Αυτοκίνητο ή Μέσα</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/jumbotron-narrow.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/base.css" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body id="top">
+
+  <nav class="navbar navbar-inverse navbar-fixed-top my-header">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+          aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        <span class="navbar-brand">Αυτοκίνητο ή Μέσα</span>
+      </div>
+      <div id="navbar" class="collapse navbar-collapse pull-right">
+        <ul class="nav navbar-nav">
+          <li class="page-scroll active"><a href="#top">Πληροφορίες</a></li>
+          <li class="page-scroll"><a href="#listCarManufacturer">Υπολογισμός</a></li>
+          <li class="page-scroll"><a href="#settings">Τιμές Καυσίμων - Καρτών</a></li>
+        </ul>
+      </div>
+      <!--/.nav-collapse -->
+    </div>
+  </nav>
+
+  <div class="container content-container">
+
+    <div class="main-content">
+      <div id="base" class="base">
+        <div class="jumbotron base-info">
+          <h1>Αυτοκίνητο ή Μέσα Μαζικής Μεταφοράς</h1>
+          <p class="lead">
+            Υπολογίστε αν σας συμφέρει να πηγαίνετε στην δουλειά σας με το αυτοκίνητο ή με τα μέσα μαζικής μεταφοράς.
+          </p>
+          <p class="text-minor">
+            Οι αρχικές τιμές αφορούν την περιοχή της Αττικής, αλλά μπορείτε να τις αλλάξετε για την περιοχή που σας ενδιαφέρει επιλέγοντας
+            από το μενού "Τιμές Καυσίμων - Καρτών".
+          </p>
+          <p class="text-minor">
+            Μπορείτε να επιλέξετε το αυτοκίνητό σας από την λίστα για να συμπληρωθούν αυτόματα το καύσιμο και η κατανάλωση ή να συμπληρώσετε
+            κατευθείαν τις τιμές στα αντίστοιχα πεδία.
+          </p>
+        </div>
+
+        <form>
+          <div class="form-group">
+            <label for="listCarManufacturer">Κατασκευαστής</label>
+            <div class="input-group">
+              <span class="input-group-addon glyphicon glyphicon-tag"></span>
+              <select id="listCarManufacturer" class="form-control">
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="listCarModel">Μοντέλο</label>
+            <div class="input-group">
+              <span class="input-group-addon glyphicon glyphicon-dashboard"></span>
+              <select id="listCarModel" class="form-control">
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="listFuelType">Καύσιμο</label>
+            <div class="input-group">
+              <span class="input-group-addon glyphicon glyphicon-oil"></span>
+              <select id="listFuelType" class="form-control">
+                <option value="1">Αμόλυβδη 95 οκτ.</option>
+                <option value="2">Αμόλυβδη 100 οκτ.</option>
+                <option value="3">Super</option>
+                <option value="4">Diesel</option>
+                <option value="5">Υγραέριο κίνησης</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputLitre">Κατανάλωση (Λίτρα ανα 100 χλμ.)</label>
+            <div class="input-group">
+              <span class="input-group-addon glyphicon glyphicon-tint"></span>
+              <input type="number" step="0.1" class="form-control" id="inputLitre" placeholder="6.5" value="5.8">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputDistance">Χιλιόμετρα την ημέρα</label>
+            <div class="input-group">
+              <span class="input-group-addon glyphicon glyphicon-road"></span>
+              <input type="number" step="0.1" class="form-control" id="inputDistance" placeholder="30" value="26">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputDays">Μέρες εργασίας το μήνα</label>
+            <div class="input-group">
+              <span class="input-group-addon glyphicon glyphicon-calendar"></span>
+              <input type="number" class="form-control" id="inputDays" placeholder="23" value="23">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="listHalfTicket">Δικαίωμα μειωμένου εισιτηρίου 
+              <a href="http://www.oasa.gr/content.php?id=mkom" target="_blank">(Περισσότερες πληροφορίες στον ΟΑΣΑ)</a>
+            </label>
+            <div class="input-group">
+              <span class="input-group-addon glyphicon glyphicon-credit-card"></span>
+              <select id="listHalfTicket" class="form-control">
+                <option value="1">Ναι</option>
+                <option value="2" selected="selected">Όχι</option>
+              </select>
+            </div>
+          </div>
+        </form>
+
+        <div class="button-calculate-wrapper">
+          <button id="buttonCalculate" type="submit" class="btn btn-lg btn-primary">
+            <span class="glyphicon glyphicon-stats"></span>
+            Υπολογισμός
+          </button>
+        </div>
+
+        <form class="form-inline result-form">
+          <div class="form-group">
+            <label for="labelResult">Κόστος καυσίμου:</label>
+            <p id="labelResult" class="form-control-static">0 €</p>
+          </div>
+          <div class="form-group">
+            <label for="labelCard">Κόστος κάρτας απεριορίστων διαδρομών:</label>
+            <p id="labelCard" class="form-control-static">0 €</p>
+          </div>
+        </form>
+
+        <div class="jumbotron result-area">
+
+          <span id="resultTextInfo" class="result-text">
+          <p>Συπληρώστε όλα τα πεδία και επιλέξτε "Υπολογισμός".</p>
+        </span>
+          <span id="resultTextCar" class="hidden result-text">
+          <p>Σας συμφέρει η χρήση αυτοκινήτου.</p>
+          <p>Επιλέξτε το φθηνότερο πρατήριο στο <a href="http://www.fuelprices.gr/GetGeography" target="_black">Παρατηρητήριο Τιμών Υγρών Καυσίμων</a>.</p>
+        </span>
+          <span id="resultTextBus" class="hidden result-text">
+          <p>Σας συμφέρει η χρήση μέσων μαζικής μεταφοράς.</p>
+          <p>Περισσότερες πληροφορίες για τις κάρτες απεριορίστων διαδρομών μπορείτε να βρείτε στον <a href="http://www.oasa.gr/content.php?id=cards" target="_black">ΟΑΣΑ</a>.</p> 
+        </span>
+        </div>
+
+      </div>
+
+      <div id="adv" class="adv">
+        Advertisement placeholder
+      </div>
+
+      <div id="settings" class="settings">
+        <div class="settings-info">
+          <h3>Τιμές Καυσίμων - Καρτών</h3>
+          <p>
+            Τιμές καυσίμων από το <a href="http://www.fuelprices.gr/" target="_black">Παρατηρητήριο Τιμών Υγρών Καυσίμων</a>.
+            Τιμές καρτών από τον <a href="http://www.oasa.gr/content.php?id=cards" target="_black">ΟΑΣΑ</a>.
+          </p>
+        </div>
+
+        <form>
+          <div class="form-group">
+            <label for="inputPrice95">Αμόλυβδη 95 οκτ.</label>
+            <div class="input-group">
+              <span class="input-group-addon glyphicon glyphicon-euro"></span>
+              <input type="number" step="0.001" class="form-control" id="inputPrice95" placeholder="0">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputPrice100">Αμόλυβδη 100 οκτ.</label>
+            <div class="input-group">
+              <span class="input-group-addon glyphicon glyphicon-euro"></span>
+              <input type="number" step="0.001" class="form-control" id="inputPrice100" placeholder="0">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputPriceSuper">Super</label>
+            <div class="input-group">
+              <span class="input-group-addon glyphicon glyphicon-euro"></span>
+              <input type="number" step="0.001" class="form-control" id="inputPriceSuper" placeholder="0">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputPriceDiesel">Diesel</label>
+            <div class="input-group">
+              <span class="input-group-addon glyphicon glyphicon-euro"></span>
+              <input type="number" step="0.001" class="form-control" id="inputPriceDiesel" placeholder="0">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputPriceGas">Υγραέριο κίνησης</label>
+            <div class="input-group">
+              <span class="input-group-addon glyphicon glyphicon-euro"></span>
+              <input type="number" step="0.001" class="form-control" id="inputPriceGas" placeholder="0">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputPriceCard">Κάρτα απεριορίστων</label>
+            <div class="input-group">
+              <span class="input-group-addon glyphicon glyphicon-euro"></span>
+              <input type="number" step="0.001" class="form-control" id="inputPriceCard" placeholder="0">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputPriceCardHalf">Κάρτα απεριορίστων μειωμένη</label>
+            <div class="input-group">
+              <span class="input-group-addon glyphicon glyphicon-euro"></span>
+              <input type="number" step="0.001" class="form-control" id="inputPriceCardHalf" placeholder="0">
+            </div>
+          </div>
+        </form>
+
+      </div>
+
+      <!--<hr>
+
+    <div id="about">
+      <h3>about</h3>
+    </div>
+
+    <hr>
+
+    <div id="contact">
+      <h3>contact</h3>
+    </div>-->
+
+      <footer class="footer">
+        <p>&copy; 2016 <a href="http://spyroskyriazos.github.io" target="_blank">Spyros Kyriazos</a></p>
+      </footer>
+
+    </div>
+  </div>
+  <!-- /.container -->
+
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
+  <!--<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>-->
+  <!--<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>-->
+  <script src="js/jquery-3.1.0.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/calc.js"></script>
+</body>
+
+</html>

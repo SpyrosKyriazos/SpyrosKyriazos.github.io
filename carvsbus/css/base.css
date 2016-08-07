@@ -1,0 +1,125 @@
+body {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  background-image: url("../images/PA100162.jpg");
+  background-position: bottom;
+  background-size: auto;
+}
+/* ------ navbar ------------------------------------------------ */
+.my-header {
+  background-color: #0E3A5C;
+  /*padding-top: 20px;
+  padding-left: 80px;
+  padding-right: 80px;*/
+  padding: 15px;
+}
+.my-header .navbar-nav >.active > a,
+.my-header .navbar-nav >.active > a:hover,
+.my-header .navbar-nav >.active > a:focus{
+    color: #ffffff;
+    background-color: #507C9D;
+    border-radius: 4px;
+}
+.my-header .navbar-nav > li > a:hover {
+    color: #ffffff;
+    background-color: #0E3A5C;
+    border-radius: 4px;
+}
+.my-header .navbar-brand {
+  color: #ffffff;
+  font-size: 22px;
+}
+.my-header .navbar-brand:hover {
+  color: #ffffff;
+}
+.my-header .navbar-toggle:hover,
+.my-header .navbar-toggle:focus {
+  background-color: #0E3A5C;
+}
+.my-header .navbar-toggle .icon-bar {
+  background-color: #BBD8E4;
+}
+.my-header .navbar-toggle:hover > .icon-bar,
+.my-header .navbar-toggle:focus > .icon-bar  {
+  background-color: #ffffff;
+}
+.my-header .navbar-nav > li > a {
+  color: #BBD8E4;
+}
+/* ------ content ------------------------------------------------ */
+.content-container {
+  background-color: #fff;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  border: 25px solid #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.6);
+}
+.base{
+  min-height: 1380px;
+}
+.base-info {
+  padding: 20px 15px;
+  text-align: center;
+}
+.base-info.jumbotron {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.text-minor {
+  font-size: 17px !important;
+  /*padding-left: 25px;
+  padding-right: 25px;*/
+}
+.result-form {
+  text-align: center;
+}
+.result-form > .form-group {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.button-calculate-wrapper {
+  margin: 30px;
+  text-align: center;
+}
+.btn-primary {
+  color: #ffffff;
+  background-color: #346388; 
+}
+.result-area {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+}
+.jumbotron{
+  background-color: #F5E173
+;
+}
+.adv{
+  margin-top: 40px;
+  margin-bottom: 60px;
+  border-top: 1px solid #1F4F74;
+  padding-top: 40px;
+  text-align: center;
+}
+.settings{
+  margin-top: 50px;
+  margin-bottom: 40px;
+  border-top: 1px solid #1F4F74;
+}
+.settings-info {
+  padding: 20px 15px;
+  text-align: center;
+}
+.footer {
+    margin-top: 80px;
+    padding-top: 19px;
+    color: #346388;
+    border-top: 1px solid #1F4F74;
+}
+/* ------ fixes ----------------------------- */
+.input-group-addon.glyphicon{
+  top: 0px;
+  color: #ffffff;
+  background: #346388;
+}
