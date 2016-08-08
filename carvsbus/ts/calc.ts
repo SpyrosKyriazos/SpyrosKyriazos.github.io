@@ -207,6 +207,8 @@ function writeFuelType(modelValue: string) {
     var value: number = 1;
     if (fuelType.indexOf('Diesel') !== -1) {
         value = 4;
+    } else if (fuelType.indexOf('Gas/Gasoline') !== -1) {
+        value = 5;
     }
     $('#listFuelType').val(value);
 }
