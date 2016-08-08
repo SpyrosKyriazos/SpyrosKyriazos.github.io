@@ -8,7 +8,7 @@ function carRequestListener() {
 function carDataToArray() {
     var request = new XMLHttpRequest();
     request.onload = carRequestListener;
-    request.open("get", "data/all_car_fuel.json", true);
+    request.open("get", "data/all_car_fuel2.json", true);
     request.send();
 }
 function pricesRequestListener() {
@@ -92,31 +92,23 @@ function findCarManufacturers() {
     var manufacturers = [""];
     for (var i = 0; i < car_data.length; i++) {
         var element = car_data[i];
-        if (manufacturers.indexOf(element.Manufacturer) == -1) {
-            manufacturers.push(element.Manufacturer);
+        if (manufacturers.indexOf(element.brand) == -1) {
+            manufacturers.push(element.brand);
         }
     }
     populateManufacturers(manufacturers);
 }
-function findCarModels(manufacturer) {
-    var models = car_data.filter(function (car) {
-        return car.Manufacturer === manufacturer;
-    });
-    populateModels(models);
-    return models;
-}
-function findCarDescriptions(manufacturer, model) {
+function findCarDescriptions(manufacturer) {
     var descriptions = car_data.filter(function (car) {
-        return car.Manufacturer === manufacturer
-            && car.Model === model;
+        return car.brand === manufacturer;
     });
+    populateModels(descriptions);
     return descriptions;
 }
-function findCar(manufacturer, model, description) {
+function findCar(manufacturer, description) {
     var car = car_data.filter(function (car) {
-        return car.Manufacturer === manufacturer
-            && car.Model === model
-            && car.Description === description;
+        return car.brand === manufacturer
+            && car.descr === description;
     })[0];
     return car;
 }
@@ -142,7 +134,7 @@ function populateManufacturers(manufacturers) {
 }
 function populateModels(models) {
     models.sort(function compare(car1, car2) {
-        if (car1.Model < car2.Model) {
+        if (car1.descr < car2.descr) {
             return -1;
         }
         else {
@@ -153,23 +145,21 @@ function populateModels(models) {
     for (var i = 0; i < models.length; i++) {
         var element = models[i];
         optionsCode += "<option value=\"";
-        optionsCode += element.Model + ";" + element.Description;
+        optionsCode += element.descr;
         optionsCode += "\">";
-        optionsCode += element.Model + " " + element.Description;
+        optionsCode += element.descr + " - " + element.year;
         optionsCode += "</option>";
     }
     $('#listCarModel').children('option').remove();
     $('#listCarModel').append(optionsCode);
 }
 function writeFuelConsumption(modelValue) {
-    var splitValue = modelValue.split(";");
-    var selectedCar = findCar($('#listCarManufacturer').val(), splitValue[0], splitValue[1]);
-    $('#inputLitre').val(selectedCar.MetricUrban);
+    var selectedCar = findCar($('#listCarManufacturer').val(), modelValue);
+    $('#inputLitre').val(selectedCar.consumptionUrban);
 }
 function writeFuelType(modelValue) {
-    var splitValue = modelValue.split(";");
-    var selectedCar = findCar($('#listCarManufacturer').val(), splitValue[0], splitValue[1]);
-    var fuelType = selectedCar.FuelType;
+    var selectedCar = findCar($('#listCarManufacturer').val(), modelValue);
+    var fuelType = selectedCar.fuelType;
     var value = 1;
     if (fuelType.indexOf('Diesel') !== -1) {
         value = 4;
@@ -195,7 +185,7 @@ $(function () {
 // on manufacturer select
 $('#listCarManufacturer').change(function () {
     var value = $(this).val();
-    findCarModels(value);
+    findCarDescriptions(value);
 });
 // on car select
 $('#listCarModel').change(function () {
