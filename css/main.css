@@ -126,7 +126,14 @@ and open the template in the editor.
     border: 4px solid #28c3ab;
     padding: 0;
 }
-
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.45);
+    border-radius: 2px;
+    padding: 15px;
+}
+.carousel-caption > p > a{
+    color: #7bfde9;
+}
 .cfooter{
     padding-top: 30px;
     /*background-color: #444;*/
