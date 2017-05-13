@@ -4,142 +4,193 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /* 
-    Created on : 12 Ιουλ 2014, 1:49:21 μμ
-    Author     : Spyros
+    Created on : Feb 25, 2017, 9:55:17 AM
+    Author     : skyr
 */
 
-.intro-text{
-    text-shadow: 1px 1px black;
+hr.star-light:after,
+hr.star-primary:after {
+  content: "\f11c";
+  font-family: FontAwesome;
+  display: inline-block;
+  position: relative;
+  top: -0.8em;
+  font-size: 2em;
+  padding: 0 0.25em;
 }
 
-.tree-img{
-    border: 4px solid #28c3ab;
-    border-radius: 50%;
+.btn-social {
+  display: inline-block;
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 35px;
+  line-height: 45px;
+  padding-top: 10px;
 }
 
-.leaf{
-    width: 100%;
-    margin-left: -5%;
-    padding-bottom: 1px;
+.btn-outline-dark {
+  color: #032b2f;
+  border: solid 2px #032b2f;
+  background: transparent;
+  transition: all 0.3s ease-in-out;
+  margin-top: 15px;
+}
+.btn-outline-dark:hover,
+.btn-outline-dark:focus,
+.btn-outline-dark:active,
+.btn-outline-dark.active {
+  color: white;
+  background: #032b2f;
+  border: solid 2px #032b2f;
 }
 
-/*li:last-child .leaf{
-    padding-bottom: 10px;
-}*/
-
-.leaf-descr{
-    display: block;
-    margin: 5px;
-    /*color: #28c3ab;*/
-    color: #fff;
-    background-color: #000;
-    border: 1px solid #28c3ab;
-    border-radius: 7%;
-    font-size: 16px;
-    /*text-transform: uppercase;*/
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    /*font-weight: 400;*/
+.skills {
+  font-size: 20px;
 }
 
-#primaryNav ul{
-    padding-left: 25%;
+/* ---------------- colors ---------------------*/
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+  color: #56b1bf;
+}
+hr.star-light {
+  border-color: white;
+}
+hr.star-light:after {
+  background-color: #56b1bf;
+  color: white;
+}
+hr.star-primary {
+  border-color: #032b2f;
+}
+hr.star-primary:after {
+  background-color: white;
+  color: #032b2f;
+}
+header {
+  background: #56b1bf;
+  color: white;
+}
+.navbar-custom {
+  background: #032b2f;
+}
+.navbar-custom .navbar-brand {
+  color: white;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:active,
+.navbar-custom .navbar-brand.active {
+  color: white;
+}
+.navbar-custom .navbar-nav li a {
+  color: white;
+}
+.navbar-custom .navbar-nav li a:hover {
+  color: #56b1bf;
+}
+.navbar-custom .navbar-nav li a:focus,
+.navbar-custom .navbar-nav li a:active {
+  color: white;
+}
+.navbar-custom .navbar-nav li.active a {
+  color: white;
+  background: #56b1bf;
+}
+.navbar-custom .navbar-nav li.active a:hover,
+.navbar-custom .navbar-nav li.active a:focus,
+.navbar-custom .navbar-nav li.active a:active {
+  color: white;
+  background: #56b1bf;
+}
+.navbar-custom .navbar-toggle {
+  color: white;
+ border-color: white;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #56b1bf;
+  color: white;
+  border-color: #56b1bf;
+}
+section.success {
+  background: #56b1bf;
+  color: white;
+}
+#portfolio .portfolio-item .portfolio-link .caption {
+  background: rgba(86, 177, 191, 0.8);
 }
 
-#primaryNav li div .tree-img{
-    width: 80px;
+#portfolio .portfolio-item .portfolio-link .caption .caption-content {
+  color: white;
 }
 
-#primaryNav li li div .tree-img{
-    width: 60px;
+.floating-label-form-group-with-focus label {
+  color: #56b1bf;
 }
-
-@media (max-width: 767px) {
-
-    #primaryNav li li{
-        margin-left: -15%;
-    }
-
-    #primaryNav li div .tree-img{
-        width: 60px;
-    }
-
-    #primaryNav li li div .tree-img{
-        width: 50px;
-    }
-
-    .leaf-descr{
-        display: none;
-    }
+footer {
+  color: white;
 }
-/*
-@media (min-width: 768px) and (max-width: 991px) {
-    #primaryNav li div .tree-img{
-        width: 80px;
-    }
-
-    #primaryNav li li div .tree-img{
-        width: 60px;
-    }
+footer .footer-below {
+  background-color: #233140;
 }
-
-@media (min-width: 992px) and (max-width: 1199px) {
-    #primaryNav li div .tree-img{
-        width: 80px;
-    }
-
-    #primaryNav li li div .tree-img{
-        width: 60px;
-    }
+.btn-outline {
+  color: white;
+  background: transparent;
 }
-
-@media (min-width: 1200px) {
-    #primaryNav li div .tree-img{
-        width: 80px;
-    }
-
-    #primaryNav li li div .tree-img{
-        width: 60px;
-    }
-}*/
-
-.download-section p{
-    text-shadow: 1px 1px black;
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+  color: #56b1bf;
+  background: white;
+  border: solid 2px white;
 }
-
-.projects-container{
-    /*height: 1500px;*/
+.btn-primary {
+  color: white;
+  background-color: #032b2f;
+  border-color: #032b2f;
 }
-
-.window-descr{
-/*    margin-top: -60px;
-    color: #000;
-    text-shadow: none !important; */
-    color: #fff;
-    background-color: #000;
-    border: 1px solid #28c3ab;
-    border-radius: 7%;
-    font-size: 16px;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: white;
+  background-color: #032b2f;
+  border-color: #032b2f;
 }
-
-.thumbnail{
-    border: 4px solid #28c3ab;
-    padding: 0;
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  background-color: #032b2f;
+  border-color: #032b2f;
 }
-.carousel-caption{
-    background-color: rgba(0, 0, 0, 0.45);
-    border-radius: 2px;
-    padding: 15px;
+.btn-primary .badge {
+  color: #032b2f;
+  background-color: white;
 }
-.carousel-caption > p > a{
-    color: #7bfde9;
+.portfolio-modal .close-modal .lr {
+  background-color: #032b2f;
 }
-.cfooter{
-    padding-top: 30px;
-    /*background-color: #444;*/
+.portfolio-modal .close-modal .lr .rl {
+  background-color: #032b2f;
 }
-/*
-.cfooter a{
-    color: #fff;
-}*/
-
