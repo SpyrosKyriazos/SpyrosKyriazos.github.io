@@ -1,0 +1,29 @@
+﻿{
+	"version": 1500720004,
+	"fileList": [
+		"data.js",
+		"c2runtime.js",
+		"jquery-2.1.1.min.js",
+		"offlineClient.js",
+		"images/ground.png",
+		"images/player-sheet0.png",
+		"images/platform-sheet0.png",
+		"images/head-sheet0.png",
+		"images/bodypart-sheet0.png",
+		"images/bodypart2-sheet0.png",
+		"images/food-sheet0.png",
+		"images/tiledbackground.png",
+		"media/eat.m4a",
+		"media/eat.ogg",
+		"media/jump4.m4a",
+		"media/jump4.ogg",
+		"media/randomize2.m4a",
+		"media/randomize2.ogg",
+		"icon-16.png",
+		"icon-32.png",
+		"icon-114.png",
+		"icon-128.png",
+		"loading-logo.png",
+		"icon-256.png"
+	]
+}
