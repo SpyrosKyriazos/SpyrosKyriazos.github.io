@@ -194,3 +194,36 @@ fieldset[disabled] .btn-primary.active {
 .portfolio-modal .close-modal .lr .rl {
   background-color: #032b2f;
 }
+
+/* ---------------- mailchimp ---------------------*/
+#mc_embed_signup {
+  clear:left; 
+  width:100%;
+  font-size: 18px;
+}
+
+#mc_embed_signup .email {
+  width: 300px;
+  text-align: center;
+}
+
+#mc_embed_signup .button {
+  background-color: #56b1bf;
+  color: white;
+  border: solid 2px #56b1bf;
+  height: 36px;
+  font-size: 20px;
+  /*letter-spacing: .03em;*/
+  box-sizing: border-box;
+  line-height: 32px;
+  padding: 0 18px;
+  /*display: inline-block;*/
+  margin: 10px;
+  width: 200px;
+  transition: all .3s ease-in-out;
+}
+
+#mc_embed_signup .button:hover {
+  background-color: white;
+  color: #56b1bf;
+}
