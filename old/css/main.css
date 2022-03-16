@@ -1,0 +1,229 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 25, 2017, 9:55:17 AM
+    Author     : skyr
+*/
+
+hr.star-light:after,
+hr.star-primary:after {
+  content: "\f11c";
+  font-family: FontAwesome;
+  display: inline-block;
+  position: relative;
+  top: -0.8em;
+  font-size: 2em;
+  padding: 0 0.25em;
+}
+
+.btn-social {
+  display: inline-block;
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 35px;
+  line-height: 45px;
+  padding-top: 10px;
+}
+
+.btn-outline-dark {
+  color: #032b2f;
+  border: solid 2px #032b2f;
+  background: transparent;
+  transition: all 0.3s ease-in-out;
+  margin-top: 15px;
+}
+.btn-outline-dark:hover,
+.btn-outline-dark:focus,
+.btn-outline-dark:active,
+.btn-outline-dark.active {
+  color: white;
+  background: #032b2f;
+  border: solid 2px #032b2f;
+}
+
+.skills {
+  font-size: 20px;
+}
+
+/* ---------------- colors ---------------------*/
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+  color: #56b1bf;
+}
+hr.star-light {
+  border-color: white;
+}
+hr.star-light:after {
+  background-color: #56b1bf;
+  color: white;
+}
+hr.star-primary {
+  border-color: #032b2f;
+}
+hr.star-primary:after {
+  background-color: white;
+  color: #032b2f;
+}
+header {
+  background: #56b1bf;
+  color: white;
+}
+.navbar-custom {
+  background: #032b2f;
+}
+.navbar-custom .navbar-brand {
+  color: white;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:active,
+.navbar-custom .navbar-brand.active {
+  color: white;
+}
+.navbar-custom .navbar-nav li a {
+  color: white;
+}
+.navbar-custom .navbar-nav li a:hover {
+  color: #56b1bf;
+}
+.navbar-custom .navbar-nav li a:focus,
+.navbar-custom .navbar-nav li a:active {
+  color: white;
+}
+.navbar-custom .navbar-nav li.active a {
+  color: white;
+  background: #56b1bf;
+}
+.navbar-custom .navbar-nav li.active a:hover,
+.navbar-custom .navbar-nav li.active a:focus,
+.navbar-custom .navbar-nav li.active a:active {
+  color: white;
+  background: #56b1bf;
+}
+.navbar-custom .navbar-toggle {
+  color: white;
+ border-color: white;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #56b1bf;
+  color: white;
+  border-color: #56b1bf;
+}
+section.success {
+  background: #56b1bf;
+  color: white;
+}
+#portfolio .portfolio-item .portfolio-link .caption {
+  background: rgba(86, 177, 191, 0.8);
+}
+
+#portfolio .portfolio-item .portfolio-link .caption .caption-content {
+  color: white;
+}
+
+.floating-label-form-group-with-focus label {
+  color: #56b1bf;
+}
+footer {
+  color: white;
+}
+footer .footer-below {
+  background-color: #233140;
+}
+.btn-outline {
+  color: white;
+  background: transparent;
+}
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+  color: #56b1bf;
+  background: white;
+  border: solid 2px white;
+}
+.btn-primary {
+  color: white;
+  background-color: #032b2f;
+  border-color: #032b2f;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: white;
+  background-color: #032b2f;
+  border-color: #032b2f;
+}
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  background-color: #032b2f;
+  border-color: #032b2f;
+}
+.btn-primary .badge {
+  color: #032b2f;
+  background-color: white;
+}
+.portfolio-modal .close-modal .lr {
+  background-color: #032b2f;
+}
+.portfolio-modal .close-modal .lr .rl {
+  background-color: #032b2f;
+}
+
+/* ---------------- mailchimp ---------------------*/
+#mc_embed_signup {
+  clear:left; 
+  width:100%;
+  font-size: 18px;
+}
+
+#mc_embed_signup .email {
+  width: 300px;
+  text-align: center;
+}
+
+#mc_embed_signup .button {
+  background-color: #56b1bf;
+  color: white;
+  border: solid 2px #56b1bf;
+  height: 36px;
+  font-size: 20px;
+  /*letter-spacing: .03em;*/
+  box-sizing: border-box;
+  line-height: 32px;
+  padding: 0 18px;
+  /*display: inline-block;*/
+  margin: 10px;
+  width: 200px;
+  transition: all .3s ease-in-out;
+}
+
+#mc_embed_signup .button:hover {
+  background-color: white;
+  color: #56b1bf;
+}
