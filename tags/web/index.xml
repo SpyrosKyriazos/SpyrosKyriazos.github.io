@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web on Spyros Kyriazos</title>
+    <link>http://spyroskyriazos.com/tags/web/</link>
+    <description>Recent content in Web on Spyros Kyriazos</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; {year} Spyros Kyriazos</copyright>
+    <lastBuildDate>Fri, 01 Mar 2019 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="http://spyroskyriazos.com/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Greek Philosopher App</title>
+      <link>http://spyroskyriazos.com/project/philosopher-app/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://spyroskyriazos.com/project/philosopher-app/</guid>
+      <description>&lt;p&gt;The Greek Philosopher app gathers more than six hundred of the best words of wisdom from the major schools of Greek thought. Based on original sources, this work is a compilation of carefully selected quotes spanning from the 6th Century BC to 1st Century AD. It offers guidance and motivation for a life well lived.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.thegreekphilosopher.com/&#34;&gt;Available here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Public Sector</title>
+      <link>http://spyroskyriazos.com/project/public-sector/</link>
+      <pubDate>Sat, 31 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://spyroskyriazos.com/project/public-sector/</guid>
+      <description>&lt;p&gt;A list of projects I worked on during my jobs at Altec Integration and the Hellenic Army&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Agri-environment measures system for the Greek Ministry of Agriculture&lt;/li&gt;
+&lt;li&gt;Digital services for the Greek Ministry of Agriculture&lt;/li&gt;
+&lt;li&gt;Prescription liquidation application for the Electronic Governance of Social Insurance (IDIKA)&lt;/li&gt;
+&lt;li&gt;Custom questionnaires creation and distribution system for the Hellenic Statistical Authority&lt;/li&gt;
+&lt;li&gt;System for collecting and presenting statistical data for the Greek Ministry of Justice&lt;/li&gt;
+&lt;li&gt;Route management and delays system for the Greek Railways&lt;/li&gt;
+&lt;li&gt;Services for electronic submission and processing of asset declarations&lt;/li&gt;
+&lt;li&gt;Administration system for the Institute of Labour of the Greek General Confederation of Labour (INE-GSEE)&lt;/li&gt;
+&lt;li&gt;Various administration and operation systems for the Hellenic Army&lt;/li&gt;
+&lt;li&gt;Data migration in Multilateral Interoperability Programme related databases for the Hellenic Army&lt;/li&gt;
+&lt;li&gt;Database monitoring and administration during the Greek military exercise Parmenion&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Car VS Bus</title>
+      <link>http://spyroskyriazos.com/project/car-vs-bus/</link>
+      <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://spyroskyriazos.com/project/car-vs-bus/</guid>
+      <description>&lt;p&gt;Car vs Bus is a web app that calculates the cost of fuel for your everyday commute and compares it to the cost of public transport.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://carvsbus.spyroskyriazos.com/&#34;&gt;Available here (In Greek)&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

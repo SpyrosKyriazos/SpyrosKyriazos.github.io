@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Spyros Kyriazos</title>
+    <link>http://spyroskyriazos.com/post/</link>
+    <description>Recent content in Posts on Spyros Kyriazos</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; {year} Spyros Kyriazos</copyright>
+    <lastBuildDate>Sun, 05 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="http://spyroskyriazos.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Local Smart Home</title>
+      <link>http://spyroskyriazos.com/post/local-smart-home/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://spyroskyriazos.com/post/local-smart-home/</guid>
+      <description>&lt;p&gt;Local control of your smart home devices and automations provides several advantages over relying on cloud services. Privacy, reliability and speed are some of the benefits. Your private information stay within your home, your devices will continue to work even if the company decides to terminate their cloud services and your automations will run instantly, without having to travel to a remote server around the world to be validated.&lt;/p&gt;
+&lt;p&gt;Below you can find resources explaining in more detail the importance of a local smart home.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;In this video Lewis Barclay provides his 5 reasons why your smart home should be local
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=H7OIHueCmSs&#34;&gt;Everything Smart Home on youtube.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;ul&gt;
+&lt;li&gt;In this article the founder of Home Assistant Paulus Schoutsen explains his vision for the perfect home automation including why your system should run at home and not in the cloud.
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.home-assistant.io/blog/2016/01/19/perfect-home-automation/&#34;&gt;Perfect Home Automation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

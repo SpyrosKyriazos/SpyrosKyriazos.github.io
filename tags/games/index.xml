@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Games on Spyros Kyriazos</title>
+    <link>http://spyroskyriazos.com/tags/games/</link>
+    <description>Recent content in Games on Spyros Kyriazos</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; {year} Spyros Kyriazos</copyright>
+    <lastBuildDate>Wed, 01 Feb 2017 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="http://spyroskyriazos.com/tags/games/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ufo Air Hockey</title>
+      <link>http://spyroskyriazos.com/project/ufo-air-hockey/</link>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://spyroskyriazos.com/project/ufo-air-hockey/</guid>
+      <description>&lt;p&gt;Ufo Air Hockey is an exciting, air hockey inspired game, set in space that supports single player and local multiplayer.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.ufoairhockey.com/&#34;&gt;Play it here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Game Jam Games</title>
+      <link>http://spyroskyriazos.com/project/game-jams/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://spyroskyriazos.com/project/game-jams/</guid>
+      <description>&lt;p&gt;A collection of games I created during game jams usually in 48 hours.
+You can play them for free on my itch.io page.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://spyrosgames.itch.io/&#34;&gt;Available here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
