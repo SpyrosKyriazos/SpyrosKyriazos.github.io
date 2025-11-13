@@ -7,20 +7,25 @@
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year} Spyros Kyriazos</copyright>
-    <lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Jun 2025 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="http://spyroskyriazos.com/tags/books/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Learn Home Automation</title>
-      <link>http://spyroskyriazos.com/project/learnhomeautomation/</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <title>Home Automation Handbook</title>
+      <link>http://spyroskyriazos.com/project/home-automation-handbook/</link>
+      <pubDate>Sat, 14 Jun 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://spyroskyriazos.com/project/learnhomeautomation/</guid>
-      <description>&lt;p&gt;With a decade of experience in software design and development, I have consistently leveraged technology to enhance productivity and improve processes for many organizations and end-users.&lt;/p&gt;
-&lt;p&gt;I want to use my knowledge and experience to reduce stress and bring joy to our homes, by empowering enthusiasts with the tools and knowledge to design personalized home automation systems.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://learnhomeautomation.com&#34;&gt;Click here to learn more&lt;/a&gt;.&lt;/p&gt;
+      <guid>http://spyroskyriazos.com/project/home-automation-handbook/</guid>
+      <description>&lt;p&gt;Build a Smart Home That Fits Your Life — Not the Other Way Around.&lt;/p&gt;
+&lt;p&gt;A structured process to help you:
+👉 Identify your needs
+👉 Plan automations that actually help
+👉 Choose the right platform
+👉 Pick the best devices
+👉 Bring it all together&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://learnhomeautomation.com/handbook/&#34;&gt;Download for FREE&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
